@@ -1,0 +1,399 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: #0f172a;
+  color: white;
+}
+
+.container{
+  width: 100%;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #111827;
+  position: sticky;
+  top: 0;
+}
+
+.navbar h1{
+  color: cyan;
+}
+
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-links a:hover{
+  color: cyan;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+}
+
+.hero-text{
+  max-width: 500px;
+}
+
+.hero-text h1{
+  font-size: 55px;
+  color: cyan;
+  margin: 10px 0;
+}
+
+.hero-text p{
+  margin: 20px 0;
+  line-height: 28px;
+}
+
+.hero-text button{
+  padding: 12px 25px;
+  border: none;
+  background: cyan;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.hero-image img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.section{
+  padding: 80px 60px;
+}
+
+.section h2{
+  color: cyan;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.skills{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skills div{
+  background: #1e293b;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+.skills button{
+  background: #1e293b;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.skills button:hover{
+  background: cyan;
+  color: black;
+  transform: scale(1.05);
+}
+
+.projects{
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card{
+  background: #1e293b;
+  padding: 25px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.card h3{
+  margin-bottom: 15px;
+  color: cyan;
+}
+.card button{
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: cyan;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover{
+  background: white;
+  transform: scale(1.05);
+}
+
+#contact p{
+  font-size: 18px;
+} */
+
+
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+}
+
+.container{
+  width:100%;
+}
+
+section{
+  padding:80px 40px;
+}
+
+.hero{
+  text-align:center;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.hero h1{
+  font-size:60px;
+  color:cyan;
+}
+
+.hero h2{
+  margin-top:10px;
+  font-size:30px;
+}
+
+.hero p{
+  margin-top:20px;
+  font-size:18px;
+}
+
+.about,
+.skills,
+.projects,
+.contact{
+  text-align:center;
+}
+
+.about h2,
+.skills h2,
+.projects h2,
+.contact h2{
+  color:cyan;
+  margin-bottom:25px;
+  font-size:40px;
+}
+
+.about p{
+  max-width:700px;
+  margin:auto;
+  line-height:30px;
+}
+
+.skill-container{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:15px;
+}
+
+.skill-container button{
+  padding:12px 25px;
+  border:none;
+  border-radius:10px;
+  background:#1e293b;
+  color:white;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.skill-container button:hover{
+  background:cyan;
+  color:black;
+}
+
+.projects{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.project-card{
+  background:#1e293b;
+  width:350px;
+  padding:20px;
+  margin:15px;
+  border-radius:12px;
+}
+
+.project-card h3{
+  color:cyan;
+  margin-bottom:10px;
+}
+
+.project-card p{
+  margin-bottom:15px;
+}
+
+.project-card button,
+.contact button{
+  padding:10px 20px;
+  border:none;
+  border-radius:8px;
+  background:cyan;
+  color:black;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.project-card button:hover,
+.contact button:hover{
+  transform:scale(1.05);
+}
+
+.contact p{
+  margin-bottom:20px;
+} */
+
+:root {
+  --text: #475569;
+  --text-h: #0f172a;
+  --bg: #f8fafc;
+  --border: #e2e8f0;
+  --code-bg: #f1f5f9;
+  --accent: #6366f1;
+  --accent-bg: rgba(99, 102, 241, 0.15);
+  --accent-border: rgba(99, 102, 241, 0.5);
+  --social-bg: #ffffff;
+  --shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #94a3b8;
+    --text-h: #f8fafc;
+    --bg: #0f172a;
+    --border: #1e293b;
+    --code-bg: #1e293b;
+    --accent: #818cf8;
+    --accent-bg: rgba(129, 140, 248, 0.15);
+    --accent-border: rgba(129, 140, 248, 0.5);
+    --social-bg: #1e293b;
+    --shadow:
+      0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  }
+
+  #social .button-icon {
+    filter: invert(1) brightness(2);
+  }
+}
+
+body {
+  margin: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#root {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}
